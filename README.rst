@@ -36,7 +36,7 @@ Table of Contents
 8. `BYO Docker Containers with SageMaker Estimators <#byo-docker-containers-with-sagemaker-estimators>`__
 9. `SageMaker Automatic Model Tuning <#sagemaker-automatic-model-tuning>`__
 10. `SageMaker Batch Transform <#sagemaker-batch-transform>`__
-11. `Secure Training and Inference with VPC <#vpc-mode>`__
+11. `Secure Training and Inference with VPC <#secure-training-and-inference-with-vpc>`__
 12. `BYO Model <#byo-model>`__
 
 
@@ -468,7 +468,7 @@ see the following documentation:
 - `Protect Data in Batch Transform Jobs by Using an Amazon Virtual Private Cloud <https://docs.aws.amazon.com/sagemaker/latest/dg/batch-vpc.html>`__
 - `Working with VPCs and Subnets <https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html>`__
 
-You can also reference or reuse the example VPC created for integration tests in this package: ``tests/integ/vpc_test_utils.py``
+You can also reference or reuse the example VPC created for integration tests: <tests/integ/vpc_test_utils.py>
 
 To train a model using your own VPC, set the optional parameters ``subnets`` and ``security_group_ids`` on an ``Estimator``:
 
